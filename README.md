@@ -25,5 +25,17 @@ Renda Líquida = Renda Bruta - Descontos por Dependente;
 - Dentro do diretório ClienteApp, instale as dependências usando `npm install`.
 - Execute `ng serve` para um servidor de desenvolvimento. Navegue até `http://localhost: 4200/`. O aplicativo será recarregado automaticamente se você alterar qualquer um dos arquivos de origem.
 
+## Observações
+
+- Persistido em um banco de dados
+- Frontend Angular
+- Interface REST
+- Framework de ORM
+- Estilo monolítico
+- Arquitetura baseada em camadas (Closed)
+- Modelagem
+- Chain of Responsability (Design patterns)
+- Testes unitários
+
 ## Dúvidas
 Caso há alguma dúvida em relação a este repositório, envie para pathydrum@gmail.com.
