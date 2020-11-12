@@ -6,9 +6,9 @@ namespace Taxpayer.Domain.Services.Mappers
 {
     public static class EmployeeServiceMapper
     {
-        internal static EmployeeResponse ConvertToResponse(this Employee employee) => ConvertObjectToResponse(employee);
+        public static EmployeeResponse ConvertToResponse(this Employee employee) => ConvertObjectToResponse(employee);
 
-        internal static EmployeeResponse ConvertObjectToResponse(Employee employee)
+        public static EmployeeResponse ConvertObjectToResponse(Employee employee)
         {
             if (employee == null) return null;
 
@@ -23,6 +23,6 @@ namespace Taxpayer.Domain.Services.Mappers
             };
         }
 
-        internal static Employee ConvertRequestToObject(EmployeeRequest request) => new Employee(request.IdentificationNumber, request.Name, Convert.ToDecimal(request.GrossSalary), Convert.ToInt32(request.NumberOfDependants));
+        public static Employee ConvertRequestToObject(EmployeeRequest request) => new Employee(request.IdentificationNumber, request.Name, Convert.ToDecimal(request.GrossSalary), Convert.ToInt32(request.NumberOfDependants));
     }
 }

@@ -35,6 +35,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taxpayer.Domain.Test", "Tax
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taxpayer.Web", "Taxpayer.Web\Taxpayer.Web.csproj", "{D07B55F3-BCAA-4236-84EE-AED7FFC90EA0}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taxpayer.Domain.Services.Test", "Taxpayer.Domain.Services.Test\Taxpayer.Domain.Services.Test.csproj", "{D39E7739-675C-401D-986B-45BB01740E66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,10 @@ Global
 		{D07B55F3-BCAA-4236-84EE-AED7FFC90EA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D07B55F3-BCAA-4236-84EE-AED7FFC90EA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D07B55F3-BCAA-4236-84EE-AED7FFC90EA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D39E7739-675C-401D-986B-45BB01740E66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D39E7739-675C-401D-986B-45BB01740E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D39E7739-675C-401D-986B-45BB01740E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D39E7739-675C-401D-986B-45BB01740E66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -101,6 +107,7 @@ Global
 		{379D53ED-6F64-4039-B1B2-E37344D969F3} = {04175131-7FFE-475A-B769-03F5D0E31AB4}
 		{EC486BAA-277E-4BF3-9273-2C282A769E3D} = {2D157AA3-3794-4EAE-BB05-81A83C4B0DF3}
 		{D07B55F3-BCAA-4236-84EE-AED7FFC90EA0} = {E621BE5B-BC04-4C30-9897-3A4FA148549D}
+		{D39E7739-675C-401D-986B-45BB01740E66} = {2D157AA3-3794-4EAE-BB05-81A83C4B0DF3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B15F1B4B-2B8A-46A5-85C4-DC3708479BE0}
