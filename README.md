@@ -19,7 +19,7 @@ Renda Líquida Alíquota
 - acima de 5 até 7 salários mínimos = 22,5%
 - acima de 7 salários mínimos = 27,5%
 
-Renda Líquida = Renda Bruta - Descontos por Dependente;
+`Renda Líquida = Renda Bruta - Descontos por Dependente`
 
 ## Servidor de desenvolvimento
 
