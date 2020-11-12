@@ -24,6 +24,8 @@ Renda Líquida = Renda Bruta - Descontos por Dependente;
 
 - Dentro do diretório ClienteApp, instale as dependências usando `npm install`.
 - Execute `ng serve` para um servidor de desenvolvimento. Navegue até `http://localhost: 4200/`. O aplicativo será recarregado automaticamente se você alterar qualquer um dos arquivos de origem.
+- Configurar conexão do banco de dados em `appsettings.Development.json`
+- Para funcionar o code first não pode existir nenhuma tabela no banco de dados
 
 ## Observações
 
