@@ -1,0 +1,30 @@
+<mat-card>
+    <mat-card-title>Novo Contribuinte</mat-card-title>
+    <mat-card-content>
+        <form [formGroup]="employeeForm" autocomplete="off" novalidate>
+            <mat-form-field>
+                <input matInput placeholder="CPF*" [(ngModel)]="employee.identificationNumber" name="identificationNumber" formControlName="identificationNumber">
+                <mat-error *ngIf="hasError('identificationNumber', 'required')">Campo CPF é obrigatório.</mat-error>
+            </mat-form-field>
+            <mat-form-field>
+                <input matInput placeholder="Nome*" [(ngModel)]="employee.name" name="name" formControlName="name">
+                <mat-error *ngIf="hasError('name', 'required')">Campo Nome é obrigatório.</mat-error>
+            </mat-form-field>
+            <mat-form-field>
+                <input matInput placeholder="Salário*" [(ngModel)]="employee.grossSalary" name="grossSalary" formControlName="grossSalary">
+                <mat-error *ngIf="hasError('grossSalary', 'required')">Campo salário é obrigatório.</mat-error>
+            </mat-form-field>
+            <mat-form-field>
+                <input matInput placeholder="Número de Dependentes*" [(ngModel)]="employee.numberOfDependants" name="numberOfDependants" formControlName="numberOfDependants">
+                <mat-error *ngIf="hasError('numberOfDependants', 'required')">Campo número de dependentes é obrigatório.</mat-error>
+            </mat-form-field>
+        </form>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-raised-button color="primary" [disabled]="!employeeForm.valid" (click)="createEmployee(employeeForm.value)">Cadastrar</button>
+        <button mat-raised-button (click)="cancelEmployee()">
+            Cancelar
+        </button> 
+    </mat-card-actions>
+</mat-card>
+

@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Table_Taxpayers]
+(
+	[ID] INT NOT NULL PRIMARY KEY, 
+    [CPF] VARCHAR(11) NULL, 
+    [NOME] VARBINARY(50) NULL, 
+    [RENDA_BRUTA] DECIMAL(10, 2) NULL
+)

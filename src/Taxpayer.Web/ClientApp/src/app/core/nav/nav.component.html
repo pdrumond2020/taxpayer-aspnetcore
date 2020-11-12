@@ -1,0 +1,28 @@
+<mat-sidenav-container class="example-container" >
+    <mat-sidenav class="side-nav" mode="side" opened fixedInViewport="true" fixedTopGap="63">
+        <mat-nav-list class="nav-list">
+            <a mat-list-item routerLink="/">
+                <i class="material-icons">
+                    home
+                </i>
+                Home
+            </a>
+            <a mat-list-item routerLink="/employees">
+                <i class="material-icons">
+                    post_add
+                </i>
+                Cadastrar Contribuinte
+            </a>
+            <a mat-list-item routerLink="/calculate">
+                <i class="material-icons">
+                    post_add
+                </i>
+                Calcular IR
+            </a>
+        </mat-nav-list>
+    </mat-sidenav>
+  
+    <mat-sidenav-content>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+  </mat-sidenav-container>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="1dedd8e5-9230-4615-b12e-33b3f8138d0d" ChangeDateTime="11/07/2020 16:49:36">
+    <Property Name="ElementName" Value="[dbo].[Table_Taxpayers].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table_Taxpayers]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0cb54624-745f-4a17-8922-2f323b927c42" ChangeDateTime="11/07/2020 16:49:42">
+    <Property Name="ElementName" Value="[dbo].[Table_Taxpayers].[ID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table_Taxpayers]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2c9ae31e-a746-4894-913b-65d1fde2f68f" ChangeDateTime="11/07/2020 16:49:46">
+    <Property Name="ElementName" Value="[dbo].[Table_Taxpayers].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table_Taxpayers]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+</Operations>
