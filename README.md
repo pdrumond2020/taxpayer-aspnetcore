@@ -38,4 +38,4 @@ Renda Líquida = Renda Bruta - Descontos por Dependente;
 - Testes unitários
 
 ## Dúvidas
-Caso há alguma dúvida em relação a este repositório, envie para pathydrum@gmail.com.
+Caso há alguma dúvida em relação a este repositório, envie para pathydruma@gmail.com.
