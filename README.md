@@ -12,11 +12,11 @@ Regras para cálculo do IR do contribuinte: Para cada contribuinte será concedi
 Valores da alíquota para cálculo do imposto são:
 
 Renda Líquida Alíquota
-até 2 salários mínimos --> isento
-acima de 2 até 4 salários mínimos --> 7,5%
-acima de 4 até 5 salários mínimos --> 15%
-acima de 5 até 7 salários mínimos --> 22,5%
-acima de 7 salários mínimos --> 27,5%
+até 2 salários mínimos = isento
+acima de 2 até 4 salários mínimos = 7,5%
+acima de 4 até 5 salários mínimos = 15%
+acima de 5 até 7 salários mínimos = 22,5%
+acima de 7 salários mínimos = 27,5%
 
 Renda Líquida = Renda Bruta - Descontos por Dependente;
 
