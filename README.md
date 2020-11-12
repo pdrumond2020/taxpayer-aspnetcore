@@ -38,6 +38,7 @@ Renda Líquida = Renda Bruta - Descontos por Dependente;
 - Modelagem
 - Chain of Responsability (Design patterns)
 - Testes unitários
+- Unit Of Work
 
 ## Dúvidas
 Caso há alguma dúvida em relação a este repositório, envie para pathydruma@gmail.com.
