@@ -45,8 +45,8 @@ namespace Taxpayer.Domain.Services
             InputForTaxRule inputForTaxRule = new InputForTaxRule(minimumWage);
             var employees = _unitOfWork.EmployeeRepository.GetAllAsync().Result;
             var employeesTax = employees.Select(x => inputForTaxRule.CalculateTaxpayer(x));
-            employeesTax.OrderBy(x => x.ValueTaxIR).ThenBy(x => x.Name).ToList();
-            return Task.FromResult(employees.Select(p => p.ConvertToResponse()));
+            var result = employeesTax.OrderBy(x => x.ValueTaxIR).ThenBy(x => x.Name).ToList();
+            return Task.FromResult(result.Select(p => p.ConvertToResponse()));
         }
     }
 }
