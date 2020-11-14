@@ -13,14 +13,10 @@ namespace Taxpayer.Web.Controllers.Base
 
         protected new Task<IActionResult> Response(HttpStatusCode statusCode, object result = null)
         {
-            if (result != null)
-            {
-                return Task.FromResult<IActionResult>(StatusCode((int)statusCode, result));
-            }
-            else
-            {
-                return Task.FromResult<IActionResult>(StatusCode((int)statusCode));
-            }
+            if (result == null)
+                return Task.FromResult<IActionResult>(StatusCode((int)HttpStatusCode.NoContent));
+
+            return Task.FromResult<IActionResult>(StatusCode((int)statusCode, result));
         }
     }
 }
