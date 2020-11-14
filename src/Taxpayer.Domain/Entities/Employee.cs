@@ -14,10 +14,6 @@
 
         public decimal? ValueTaxIR { get; set; }
 
-        public Employee()
-        {
-        }
-
         public Employee(string identificationNumber, string name, decimal grossSalary, int numberOfDependants)
         {
             IdentificationNumber = identificationNumber;

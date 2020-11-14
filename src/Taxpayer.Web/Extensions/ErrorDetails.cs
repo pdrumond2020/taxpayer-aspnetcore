@@ -1,7 +1,5 @@
 ﻿using Newtonsoft.Json;
-using System;
 using System.Net;
-using Taxpayer.Application.Model.RequestResponse;
 
 namespace Taxpayer.Web.Extensions
 {
